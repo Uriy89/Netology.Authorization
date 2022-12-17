@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  app1:
+    image: 'myapp'
+    container_name: 'doc-app1'
+    build: ./
+    ports:
+      - 8080:8080
+
